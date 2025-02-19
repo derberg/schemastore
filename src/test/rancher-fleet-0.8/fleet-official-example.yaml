@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../../schemas/json/rancher-fleet-0.8.json
 # The default namespace to be applied to resources. This field is not used to
 # enforce or lock down the deployment to a specific namespace, but instead
 # provide the default value of the namespace field if one is not specified
@@ -62,7 +63,7 @@ helm:
     # call, e.g. `uuidv4`, the bundle will get redeployed.
     # The template context has following keys.
     # `.ClusterValues` are retrieved from target cluster's `spec.templateValues`
-    # `.ClusterLabels` and `.ClusterAnnotations` are the labels and annoations in the cluster resource.
+    # `.ClusterLabels` and `.ClusterAnnotations` are the labels and annotations in the cluster resource.
     # `.ClusterName` as the fleet's cluster resource name.
     # `.ClusterNamespace` as the namespace in which the cluster resource exists.
     # Note: The fleet.yaml must be valid yaml. Templating uses ${ } as delims,

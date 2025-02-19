@@ -1,6 +1,6 @@
 {
-  "$id": "https://json.schemastore.org/app-config.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://json.schemastore.org/app-config.json",
   "title": "Application Configuration Schema",
   "type": "object",
   "description": "This is the schema describing the structure of the app-config.yaml configuration file.",
@@ -3551,7 +3551,7 @@
           "properties": {
             "type": {
               "type": "string",
-              "enum": ["multiTenant"]
+              "enum": ["multiTenant", "singleTenant", "catalogRelation"]
             }
           }
         },

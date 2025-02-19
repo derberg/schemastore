@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../../schemas/json/one-service-descriptor-schema-0.1.json
 description: >
   This service manages:
     - User session
@@ -8,7 +9,7 @@ description: >
     - Back-office roles
     - Application roles
     - Back-office operators
-    - Operator branch assigne
+    - Operator branch assignment
 requires:
   - service: tenants-sidecar
     version: 2.2.1
